@@ -34,5 +34,3 @@ Prettier and ESLint are also configured as pre-commit hooks.
       - `yarn studio`
       - Press the Run button
 
-
-<a href="https://twitter.com/brunolemos" target="_blank"><img src="https://github.com/brunolemos.png?size=500" height="100" /></a>

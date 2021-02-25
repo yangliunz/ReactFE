@@ -25,4 +25,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: yarn
+    
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run the tests and generate coverage report
+      run: npm run workspace web-cra build

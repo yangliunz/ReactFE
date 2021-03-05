@@ -40,5 +40,5 @@ jobs:
         username: ${{ secrets.USER_NAME }}
         password: ${{ secrets.PASSWORD }}
         source: "packages/web-cra/build/*"
-        target: "/usr/share/nginx/html"
+        target: "usr/share/nginx/html/"
         strip_components: 3

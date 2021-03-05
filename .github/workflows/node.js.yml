@@ -31,7 +31,7 @@ jobs:
       run: yarn
       
     - name: Build Web 
-      run: yarn webbuild
+      run: yarn workspace web-cra build
       
     - name: SCP Command to Transfer Files
       uses: appleboy/scp-action@v0.1.1

@@ -30,8 +30,8 @@ jobs:
     - name: Install dependencies
       run: yarn
       
-    - name: Upload build files
-      uses: appleboy/scp-acticon@master
+    - name: SCP Command to Transfer Files
+      uses: appleboy/scp-action@v0.1.1
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER_NAME }}

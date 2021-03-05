@@ -39,6 +39,5 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER_NAME }}
         password: ${{ secrets.PASSWORD }}
-        source: "packages/web-cra/build/*"
+        source: "packages/web-cra/build/*.*"
         target: "data/www/gamespy"
-        strip_components: 1

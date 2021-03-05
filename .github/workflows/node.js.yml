@@ -31,7 +31,7 @@ jobs:
       run: yarn
       
     - name: Upload build files
-      uses: appleboy/scp-actiCon@master
+      uses: appleboy/scp-acticon@master
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER_NAME }}

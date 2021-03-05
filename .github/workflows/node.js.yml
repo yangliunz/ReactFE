@@ -41,3 +41,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         source: "packages/web-cra/build/*"
         target: "/data/www/"
+        strip_components: 1
